@@ -5,6 +5,9 @@ if (capital ==="USA") {
 else if (year ==="Kyrgyzstan") {
   alert("Bishkek");
 }
+else if (year ==="Kazakhstan") {
+  alert("Nur Sultan");
+}
 else {
   alert("We don't know that country")
 }
