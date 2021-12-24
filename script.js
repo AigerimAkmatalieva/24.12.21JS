@@ -1,28 +1,7 @@
-var city = prompt("В каком городе ты живёшь");
+var currentNumber = 0;
+var stopNumber = 10;
 
-if (city === "Каракол") {
-  alert("Иссык-Куль");
-
-} else if (city === "Ош") {
-  alert("Ош");
-
-} else if (city === "Бишкек") {
-  alert("Чуй");
+while (currentNumber < stopNumber) {
+  currentNumber = currentNumber + 1;
+  console.log(currentNumber);
 }
-  else if (city === "Ат-Башы") {
-  alert("Нарын");
-}
-else if (city === "Сузак") {
-  alert("Баткен");
-}
-else if (city === "Кадамжай") {
-  alert("Жалал-Абад");
-}
-else if (city === "Ат-Башы") {
-  alert("Нарын");
-}
-else {
-  alert("Вы живете заграницей!")
-}
-
-
