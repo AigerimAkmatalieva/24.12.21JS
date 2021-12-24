@@ -1,14 +1,28 @@
-var year = prompt("What year Kyrgyzstan gained independence?")
-if (year > "1991") {
-  alert("This year is after independence year");
+var city = prompt("В каком городе ты живёшь");
+
+if (city === "Каракол") {
+  alert("Иссык-Куль");
+
+} else if (city === "Ош") {
+  alert("Ош");
+
+} else if (city === "Бишкек") {
+  alert("Чуй");
 }
-else if (year ==="1991") {
-  alert("You got it!");
+  else if (city === "Ат-Башы") {
+  alert("Нарын");
+}
+else if (city === "Сузак") {
+  alert("Баткен");
+}
+else if (city === "Кадамжай") {
+  alert("Жалал-Абад");
+}
+else if (city === "Ат-Башы") {
+  alert("Нарын");
 }
 else {
-alert("This year is before independence year");
-};
-
-
+  alert("Вы живете заграницей!")
+}
 
 
