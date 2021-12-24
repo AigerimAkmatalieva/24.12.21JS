@@ -1,2 +1,2 @@
-var example1 = 100 + 100;
+var example1 = "Hello" + "World";
 console.log(example1);
