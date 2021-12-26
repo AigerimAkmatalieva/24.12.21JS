@@ -1,17 +1,20 @@
-var city = prompt("What is the country you want know capital of?")
-if (capital ==="USA") {
-  alert("Vshington");
+var city = prompt("What are the cities in Kyrgyzstan?")
+if (city ==="Karakol") {
+  alert("True");
 }
-else if (year ==="Kyrgyzstan") {
-  alert("Bishkek");
+else if (city ==="Bishkek") {
+  alert("True");
 }
-else if (year ==="Kazakhstan") {
-  alert("Nur Sultan");
+else if (city ==="Tokmok") {
+  alert("True");
+}
+else if (city ==="Osh") {
+  alert("True");
+}
+else if (city ==="Balykchy") {
+  alert("True");
 }
 else {
-  alert("We don't know that country")
+  alert("We don't know that city")
 }
-
-
-
 
