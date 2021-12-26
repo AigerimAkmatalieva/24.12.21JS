@@ -18,3 +18,14 @@ while (num < 100) {
   console.log(num);
   num++;
 }
+
+for (let num = 0; num < 100; num++) {
+  console.log(num);
+}
+
+var result = 1;
+var arr = [2, 3, 4, 5];
+for (var i = 0; i < arr.length; i++) {
+  result = result * arr[i];
+}
+alert(result);
