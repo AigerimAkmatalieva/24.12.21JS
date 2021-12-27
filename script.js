@@ -1,4 +1,4 @@
-function callFriend(friendsName) {;
+function callFriend(friendsName = " Bakyt") {
   console.log("pick up the phone");
   console.log("Type in the number of" + friendsName);
   console.log("Press call");
