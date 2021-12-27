@@ -20,7 +20,9 @@ function countdown(number) {
   for (let i = number; i > 0; i--) {
     document.write(i + "<br>");
   }
+  document.write("<br>");
 }
 
 
 countdown(10);
+countdown(15);
