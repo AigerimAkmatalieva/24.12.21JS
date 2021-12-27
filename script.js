@@ -8,7 +8,7 @@ if (city === "Karakol") {
 } else if (city === "Osh") {
   alert("True");
 } else if (city === "Balykchy") {
-  alert("True");
+  alert("True");  
 } else {
   alert("We don't know that city");
 }
