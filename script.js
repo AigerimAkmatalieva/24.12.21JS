@@ -5,7 +5,13 @@ function callFriend(friendsName = " Bakyt") {
   console.log("Wait for answer");
 }
 
-callFriend(" Akjol");
-callFriend(" Bakyt");
-callFriend(" Seitek");
-callFriend();
+function calculateSquarArea(a, b) {
+  console.log(a * b);
+}
+
+function calculateCylinderVolume(r, h) {
+  return 3.14 * r * r * h;
+}
+
+var volume = calculateCylinderVolume(3, 4);
+console.log(volume);
