@@ -15,3 +15,16 @@ function calculateCylinderVolume(r, h) {
 
 var volume = calculateCylinderVolume(3, 4);
 console.log(volume);
+
+document.write("Hello world!<br>");
+document.writeln("Bye world!<br>");
+document.writeln("GoodBye world!");
+
+function countdown() {
+  for (let i = 10; i > 0; i--) {
+    document.write(i + "<br>");
+  }
+}
+
+
+countdown();
